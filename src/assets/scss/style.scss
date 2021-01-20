@@ -1,0 +1,29 @@
+//LIBRARY
+@import "library.styles/bootstrap/bootstrap";
+
+//MIXINS
+@import "common.blocks/utils/mixins";
+
+//VARIABLE
+@import "common.blocks/utils/variable";
+
+//TEXT
+@import "common.blocks/utils/text";
+
+//FONTS
+@import "common.blocks/utils/fonts";
+
+//SECTIONS
+@import "common.blocks/sections/header";
+@import "common.blocks/sections/service-list";
+@import "common.blocks/sections/carousel-section";
+
+//BLOCKS
+@import "common.blocks/blocks/logo";
+@import "common.blocks/blocks/service-block";
+@import "common.blocks/blocks/carouse-slide";
+
+//main styles
+@import "common.blocks/utils/common";
+
+

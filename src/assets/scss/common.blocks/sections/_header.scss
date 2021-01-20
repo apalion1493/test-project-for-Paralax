@@ -1,0 +1,38 @@
+.header {
+  background: rgba(0, 0, 0, .6);
+  padding-top: 41px;
+  padding-bottom: 21px;
+  border-top: 5px solid $primary;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  align-items: center;
+
+  .nav-link {
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 15.6px;
+    text-align: left;
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding: 13px 20px;
+    transition: background-color 0.2s;
+    border-radius: 10px;
+
+    &.active {
+      background-color: $primary;
+      transition: background-color 0.2s;
+    }
+
+    &:hover {
+      background-color: #5bb779;
+      transition: background-color 0.2s;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.carouselSection {
+  background: rgba(0, 0, 0, .6);
+  padding-top: 21px;
+  padding-bottom: 50px;
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 15px;
+    height: 28px;
+    background: url(../img/Left_arrow.svg) no-repeat center;
+    background-size: 100% auto;
+  }
+
+  .carousel-control-next-icon {
+    transform: rotate(180deg);
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+  }
+
+  .carousel-control-prev  {
+    justify-content: flex-start;
+  }
+
+  .carousel-control-next {
+    justify-content: flex-end;
+  }
+}
